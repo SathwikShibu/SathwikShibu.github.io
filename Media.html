@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+
+
+/* Navbar styles */
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #bb5323;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background: #ffd700;
+    color: #000;
+}
+
+.navbar a, .dropbtn {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.pubg-mobile{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 15px; /* Space between images */
+    margin: 20px 0;
+}
+.image-box {
+    background-color: #000000; /* Black background for image box */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    overflow: hidden; /* Ensure images fit within the box */
+}
+.image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius:10px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    
+
+}
+.image-box:hover img {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+    
+
+    <header>
+        <nav class="navbar">
+            <img src="logo.jpg" alt="PUBG" class="logo">
+            <ul>
+                <li class="dropdown">
+                    </div>
+                </li>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Game Info.html">Game Info</a></li>
+                        <li><a href="Media.html">Media</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Community</a>
+                            <div class="dropdown-content">
+                                <a href="https://www.midasbuy.com/midasbuy/ae/buy/pubgm" target="_blank">Midasbuy</a>
+                                <a href="https://www.youtube.com/pubg" target="_blank">Youtube</a>
+                                <a href="https://www.instagram.com/pubg_battlegrounds_global/" target="_blank">Instagram</a>
+                                <a href="https://www.twitch.tv/pubg_battlegrounds/"target="_blank">Twitch</a>
+                                <a href="https://www.tiktok.com/@pubg/"target="_blank">TikTok</a>
+                                <a href="https://x.com/PUBG/"target="_blank">Twitter</a>
+                                <a href="https://www.facebook.com/PUBG.battlegrounds.global/"target="_blank">Facebook</a>
+                            </div>
+                        <li><a href="Tournments.html">Tournments</a></li>
+                    </ul>
+                </nav>
+            </ul>
+        </nav>
+    </header>  
+<br>
+<br>
+<br>
+
+
+
+<section class="pubg-mobile">
+            <a href="https://youtu.be/xmR9Fc-nHg0?si=mQaJQpSqvp0nF2zV" target="_blank">
+            <div class="image-box"><img src="ll.jpg" alt="pubg"></div>
+        </a>
+        <a href="https://youtu.be/rjHhqT_9-cg?si=s4s0XclauaWMj5tA" target="_blank">
+            <div class="image-box"><img src="Pi.jpeg" alt="pubg"></div>
+        </a>
+            <a href="https://youtu.be/h0s5X6pyhd0?si=E185imqrvbpHXKEv" target="_blank">
+            <div class="image-box"><img src="zx.jpg" alt="pubg"></div>
+        </a>
+        <a href="https://youtu.be/iw_R3Lq7O7c?si=s7vcDnA_gB0cGk-2" target="_blank">
+            <div class="image-box"><img src="jk.jpg" alt="pubg"></div>
+        </a>
+            <a href="https://youtu.be/j8mKRQxaRIg?si=MLC8vF2nYHZG8Iq9" target="_blank">
+            <div class="image-box"><img src="lol.jpeg" alt="pubg"></div>
+        </a>
+            <a href="https://youtu.be/hOnL6rE12gw?si=Y4P21pCyTNS2TyTi" target="_blank">
+            <div class="image-box"><img src="download (1).jpeg" alt="pubg"></div>
+        </a>
+</section>
+
+
+
+
+</body>
+</html>
